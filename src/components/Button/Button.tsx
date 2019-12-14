@@ -6,6 +6,10 @@ interface ButtonProps extends ExtendedProps {
     buttonText: string;
 }
 
+/**
+ * 
+ * ButtonDemo - not wrapped
+ */
 export const ButtonDemo: FC<ButtonProps> = ({
     buttonText,
     commonProp,

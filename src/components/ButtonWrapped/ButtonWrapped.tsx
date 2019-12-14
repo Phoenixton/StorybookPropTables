@@ -6,6 +6,10 @@ interface ButtonProps extends ExtendedProps {
     buttonText: string;
 }
 
+/**
+ * ButtonWrapped uses a wrapping component
+ * 
+ */
 export const ButtonWrapped: FC<ButtonProps> = ({
     buttonText,
     commonProp,

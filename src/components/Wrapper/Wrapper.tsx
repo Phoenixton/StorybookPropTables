@@ -10,6 +10,9 @@ interface VeryExtendedProps {
 }
 
 export interface ExtendedProps extends VeryExtendedProps {
+    /**
+     *  wrapped extended props description
+     */ 
     commonProp: string;
 }
 
